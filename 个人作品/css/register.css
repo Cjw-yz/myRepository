@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.register{
+	width: 302px;
+	height: 470px;
+	background: white;
+	border: 1px solid #c8c8c8;
+	margin-left: 696px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	top:70px;
+	padding-top: 20px;
+}
+#join{
+	height: 36px;
+	width: 260px;
+	background: black;
+	color: white;
+	margin-bottom: 10px;
+}
+#goBack{
+	height: 36px;
+	width:260px;
+	background: white;
+	border: 2px solid black;
+}
+p,h4{
+	font-size: 14px;
+	
+}
+span{
+	font-size:13px;
+}
+.e-mall{
+	margin-top: 20px;
+}
+#myE-mall,#myaffirm,#myPassword{
+	height: 37px;
+	width: 255px;
+}

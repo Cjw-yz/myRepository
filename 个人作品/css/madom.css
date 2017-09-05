@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.madom-banner{
+	overflow: hidden;
+	background: url(../img/content.png);
+	background-size: 715px 125px;
+	width: 715px;
+	height: 125px;
+}
+.madom-banner-wrapper{
+	width: 715px;
+	float: right;
+}
+.madom-nav{
+	float:left;
+}
+.madom-nav-wrapper{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 960px;
+	min-width: 960px;
+}
+.banner-expander li{
+	background: black;
+	color: white;
+	padding: 0 20px;
+	margin: 0 auto;
+	
+	list-style: none;
+	margin-left: 322px;
+	line-height: 27px;
+}
+.banner-expander{
+	
+	display: inline-block;
+	margin: 0 auto;
+}
+.headLine{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+.banner-text{
+	margin-bottom: 15px;
+	font-size: 12px;
+	text-align: center;
+}
+.madom-overlay{
+	text-decoration: none;
+	color: white;
+	display:inline-block;
+	background: url(../img/madom-banner1.jpg) no-repeat;
+	background-size: 715px 476px;
+	width: 715px;
+	height: 476px;
+}
+.madom-text{
+	text-align: center;
+	margin-top: 200px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.madom-style{
+	text-align: center;
+	font-size: 33px;
+	margin-bottom:18px;
+	}
+.madom-price{
+	display: inline-block;
+	padding: 0 10px;
+	color: black;
+	background: white;
+	line-height: 29px;
+	margin-left: 104px;
+}
+.madom-overlay-wrapper{
+	margin-left: 378px;
+	width: 300px;
+	height: 300px;
+	
+}
+.madom-space{
+	height: 25px;
+}
+.madom-space-second{
+	height:50px ;
+}
+.madom-Boutique{
+	text-align: center;
+	font-size: 19px;
+}
+.boutique-items{
+	position: absolute;
+	list-style: none;
+	width: 2860px;
+	height: 466px;
+}
+.boutique-items li{
+	
+     float: left;
+	width: 715px;
+	height: 425px;
+}
+.product-item-commodity{
+	
+	width: 224px;
+	height: 336px;
+}
+
+.product-item-commodity:after{
+	background: url(../img/product-logo.png);
+	background-size: 34px 34px;
+	height: 34px;
+	width: 34px;
+}
+.product-logo{
+	top: 296px;
+	left: 180px;
+	width: 34px;
+	height: 34px;
+	position: absolute;
+}
+.product-logo-second{
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 296px;
+	left: 404px;
+}
+.product-logo-third{
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 296px;
+	left: 672px;
+}
+.product-item-inner{
+	float: left;
+	width: 224px;
+	height: 336px;
+}
+.product-item-inner-third{
+	float:right;
+	width: 224px;
+	height: 336px;
+}
+.product-item-inner-second{
+	float: left;
+	width: 224px;
+	height: 336px;
+}
+.product-item-inner a{
+	display:block;
+}
+button.left{
+	display: none;
+	position: absolute;
+	top: 140px;
+	left: 0px;
+	text-align: center;
+	line-height: 60px;
+	width: 30px;
+	height: 60px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	background:transparent;
+}
+button.rigth{
+	display: none;
+	position: absolute;
+	text-align: center;
+	line-height: 60px;
+	width: 30px;
+	height: 60px;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	background: transparent;
+	top: 140px;
+	right:0px;
+	
+}
+.boutique-list{
+	overflow: hidden;
+	position: relative;
+	width: 716px;
+	height: 491px;
+	
+}
+.product-style{
+	font-size: 14px;
+	text-align: center;
+}
+.product-price{
+	font-size: 14px;
+	text-align: center;
+}
+.product-new{
+	text-align: center;
+	font-size: 13px;
+	color:#9a9a9a ;
+}
+.swipe-pagination{
+	position: absolute;
+	overflow: hidden;
+	list-style:none;
+	margin-left: 306px;
+	top: 445px;
+}
+.swipe-pagination li{
+	width: 6px;
+	height:6px;
+	background: #c8c8c8;
+	border-radius:3px;
+	cursor: pointer;
+	margin-left: 10px;
+	float: left;
+}
+
+.cta-container{
+	margin-top: 70px;
+	width: 715px;
+	margin-bottom: 60px;
+	
+	
+}
+.product-madom-boutique-first{
+	overflow: hidden;
+	background: url(../img/product-madom1.png);
+	width: 346px;
+	height: 518px;
+	background-size: 346px 518px;
+	
+}
+.product-madom-boutique-second{
+	overflow: hidden;
+	background: url(../img/product-madom2.png);
+	width: 340px;
+	height: 518px;
+	background-size: 346px 518px;
+}
+.madom-boutique-first-wrapper{
+	margin-top:368px ;
+	text-align: center;
+}
+.madom-boutique-second-wrapper{
+	margin-top: 368px;
+	text-align: center;
+}
+.madom-boutique-first-wrapper h1{
+	margin-bottom: 30px;
+}
+.madom-boutique-second-wrapper h1{
+	margin-bottom:30px;
+}
+.madom-boutique-first-wrapper h6,.madom-boutique-second-wrapper h6{
+	height: 29px;
+	padding: 0 20px;
+	display: inline-block;
+	background: black;
+	color: white;
+	line-height: 29px;
+	text-align: center;
+}
+.madom-productLink-first{
+	display: inline-block;
+	float: left;
+	color: black;
+	text-decoration: none;
+	
+}
+.madom-productLink-second{
+	display: inline-block;
+	float: right;
+	color: black;
+	text-decoration: none;
+}
+.product-madom-boutitue{
+	overflow: hidden;
+}
+.madom-productLink-third{
+	overflow: hidden;
+	text-decoration: none;
+	color: white;
+	display: block;
+	background: url(../img/madom-banner2.jpg);
+	background-size: 715px 476px;
+	width: 715px;
+	height: 476px;
+}
+.madom-product-style{
+	margin-top: 123px;
+	margin-left: 392px;
+}
+.madom-productLink-third h4{
+	font-size: 20px;
+	margin-left: 392px;
+}
+.madom-boutique-third-wrapper{
+	margin-top: 160px;
+	text-align: center;
+}
+.madom-boutique-third-wrapper ul{
+	margin-top: 20px;
+	font-size: 13px;
+	display: inline-block;
+	padding: 0 10px;
+	height: 29px;
+	background: white;
+	color: black;
+	line-height: 29px;
+	text-align: center;
+}
+.womens-dress dt{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 70px;
+}
+.womens-dress dd{
+	margin-top: 20px;
+	font-size: 12px;
+	color: #9a9a9a;
+}
+.read-particulars{
+	margin-top: 30px;
+	font-size: 12px;
+	margin-left: 333px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-decoration: underline;
+	background: transparent;
+	margin-bottom: 70px;
+}
+.section-menu-category li{
+	list-style: none;
+	color: #9a9a9a;
+}
+.section-menu-category a{
+	font-size: 12px;
+	color: #9a9a9a;
+	text-decoration: none;
+}
+.section-menu-category{
+	margin-bottom: 20px;
+}
+.madom-nav-bigWrapper{
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	min-width: 960px;
+}
+#myfoot{
+	width: 100%;
+	height: 470px;
+}
+.active{
+	background: black !important;
+}
+.slice{
+	
+}
+
+.nav-classify{
+	color:black;
+}

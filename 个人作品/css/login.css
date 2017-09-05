@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#login{
+	width: 302px;
+	height: 378px;
+	background: white;
+	border: 1px solid #c8c8c8;
+	margin-left: 696px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	top:70px;
+	padding-top: 20px;
+}
+.mylogin{
+	height: 36px;
+	width: 260px;
+	background: black;
+	color: white;
+	margin-bottom: 10px;
+	outline: none;
+	
+}
+.myjoin{
+	height: 36px;
+	width: 260px;
+	background: white;
+	border: 2px solid black;
+	margin-bottom: 10px;
+	outline: none;
+	
+}
+p{
+	font-size: 14px;
+}
+.mytext,.mypassowrd{
+	height: 37px;
+	width: 255px;
+}
+.space{
+	height: 30px;
+}
+.user{
+	margin-top: 20px;
+}
+.space-second{
+	height: 17px;
+}
+hr{
+	width: 260px;
+}

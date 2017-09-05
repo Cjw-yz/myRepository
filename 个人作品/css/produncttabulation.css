@@ -1,0 +1,55 @@
+	*{
+				margin: 0;
+				padding: 0;
+			}
+			.tabulation-screen{
+				
+			}
+			.product-costume{
+				margin-top: 50px;
+			}
+			.tabulation-text{
+				font-size: 13px;
+				margin-top: 35px;
+				margin-bottom: 15px;
+			}
+			.tabulation-classify{
+				overflow: hidden;
+				list-style: none;
+				
+			}
+			.tabulation-screen{
+				cursor: pointer;
+				text-align: center;
+			    line-height: 42px;
+				background: white;
+				width: 66px;
+				height: 42px;
+				float: left;
+				border: 1px dashed #c8c8c8;
+			}
+			.tabulation-way{
+				cursor: pointer;
+				text-align: center;
+			    line-height: 42px;
+				background: white;
+				width: 66px;
+				height: 42px;
+				float: right;
+				border: 1px dashed #c8c8c8;
+			}
+			.tabulation-way:after{
+				content: ;
+				border-top: 5px solid black;
+				border-bottom: 5px solid black;
+				border-right: 5px solid black;
+			}
+			.product-tabulation{
+				float: right;
+				width: 715px;
+				
+			}
+			.product-amount{
+				margin-top: 25px;
+				font-size: 13px;
+			}
